@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("img.png");
+    background-size: cover;
+}
+.nev-bar{
+    display: flex;
+}
+
+/* LOGO */
+.logo{
+    width: 65%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+    color: blanchedalmond;
+}
+
+/* MENO BAR */
+.meno-bar{
+    width: 35%;
+    height: 100px;
+}
+.meno-bar ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 53px;
+}
+.meno-bar li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4e2c2c;
+}
+
+/* INTRO */
+.intro{
+    width: 55%;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+    margin-left: 103px;
+}
+.intro h1{
+    font-size: 3.8rem;
+}
+.intro p{
+    margin: 30px 0;
+    font-size: larger;
+    font-weight: 500px;
+}
+
+/* BUTTON */
+button{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 12px 28px;
+    color: #4e2c2c;
+    border: none;
+}
+button:hover{
+    background:linear-gradient(50deg, white, #4e2c2c );
+    color: white;
+    
+    
+}
